@@ -5,6 +5,7 @@ public class TTTT {
 }
 
 
+import java.awt.print.Book;
 //1.	Write a Java program to calculate the total price of each book where book name 
 //is unique. The basic code is given below.
 import java.io.*;
@@ -14,7 +15,7 @@ class javaQ {
 	public static void main (String[] args) {
   
   //ystem.out.println("Hello Java");
-  Book  prod1 = new Book ("Java Programming",520, 2);
+  Book  prod1 = new Book ();
   Book  prod2 = new Book ("Learn PHP",213.50, 3);
   Book  prod3 = new Book ("ReactJS for Dummies",320, 8);
   Book  prod4 = new Book ("Java Programming",520, 5);
