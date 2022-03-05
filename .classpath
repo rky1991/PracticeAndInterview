@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Collection"/>
+	<classpathentry kind="src" path="demo"/>
+	<classpathentry kind="src" path="InterviewQuestions"/>
+	<classpathentry kind="src" path="Java"/>
+	<classpathentry kind="src" path="MostAskedQuestion"/>
+	<classpathentry kind="src" path="Selenium"/>
+	<classpathentry excluding="Polymorphism/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/Polymorphism"/>
+	<classpathentry kind="src" path="TestNG"/>
+	<classpathentry kind="lib" path="jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
