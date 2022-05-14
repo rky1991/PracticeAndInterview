@@ -8,7 +8,7 @@ public class FindInterSection {
 	public static void main(String[] args) {
 		
 		int ar[]={2,5,3,7};
-		int ar1[]={5,2,9,0,1};
+		int ar1[]={5,2,4,0,1};
 		
 		Set set = new HashSet<>();
 		

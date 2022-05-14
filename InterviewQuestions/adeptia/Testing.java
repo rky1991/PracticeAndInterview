@@ -8,6 +8,6 @@ package adeptia;
 		 
 	 }
 	 abstract public void set();
-	 abstract final public void get();
+	 abstract public void get();
 
 }

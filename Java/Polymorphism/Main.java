@@ -10,8 +10,8 @@ public class Main {
 		    Base x = new Base(); 
 	        Base y = new Derived(); 
 	        Derived z = new Derived(); 
-	        DoPrint(x); 
-	        DoPrint(y); 
+	        DoPrint(x);
+	        DoPrint(y);
 	        DoPrint(z);
 	        y.test();
 	        z.test();
