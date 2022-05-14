@@ -18,4 +18,11 @@ package adeptia;
 		obj.get();
 	}
 
+
+	@Override
+	public void set() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

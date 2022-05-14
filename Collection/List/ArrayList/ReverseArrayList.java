@@ -16,6 +16,7 @@ public class ReverseArrayList {
 		System.out.println(ls);
 		Collections.reverse(ls);
 		System.out.println(ls);
+		
 		Collections.sort(ls);
 		System.out.println(ls);
 		Collections.synchronizedList(ls);
