@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15" started-at="2022-06-16T05:42:35Z" finished-at="2022-06-16T05:42:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15" started-at="2022-06-16T05:42:35Z" finished-at="2022-06-16T05:42:35Z">
+      <class name="anottations.ExecutionOrderOfAnnotation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforSuite" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testAnnotation()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="testAnnotation" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnnotation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- anottations.ExecutionOrderOfAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -15,6 +15,12 @@ public class Main {
 	        DoPrint(z);
 	        y.test();
 	        z.test();
+	        x.test();
+	        
+	        
+	       
+	        
+	        
 	        
 	        
 		
