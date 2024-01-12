@@ -12,7 +12,9 @@ public class HasSetTest {
 		Set st= new HashSet<>();
 		
 		st.add(4);
-		st.add(4);// duplicate not allowed
+		
+		boolean b = st.add(4);// duplicate not allowed
+		System.out.println("Duplicate add===>>"+b);
 		st.add(5);
 		st.add(1);
 		st.add(50);
