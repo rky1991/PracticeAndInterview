@@ -29,7 +29,8 @@ public class BrowserLaunch {
 		JavascriptExecutor js= (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
 		driver.findElement(By.xpath(pricerange)).click();
-		
+		System.out.println("Test Case is passed :--->");
+		driver.quit();
 		
 		
 	}

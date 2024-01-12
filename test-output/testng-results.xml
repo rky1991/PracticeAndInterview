@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15" started-at="2022-06-16T05:42:35Z" finished-at="2022-06-16T05:42:35Z">
+  <suite started-at="2024-01-12T20:48:09 IST" name="Default suite" finished-at="2024-01-12T20:48:10 IST" duration-ms="33">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15" started-at="2022-06-16T05:42:35Z" finished-at="2022-06-16T05:42:35Z">
-      <class name="anottations.ExecutionOrderOfAnnotation">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
+    <test started-at="2024-01-12T20:48:09 IST" name="Default test" finished-at="2024-01-12T20:48:10 IST" duration-ms="33">
+      <class name="anottations.TestA">
+        <test-method signature="get()[pri:0, instance:anottations.TestA@bef2d72]" started-at="2024-01-12T20:48:09 IST" name="get" finished-at="2024-01-12T20:48:10 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforSuite" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="testAnnotation()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="testAnnotation" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAnnotation -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:anottations.ExecutionOrderOfAnnotation@3ecf72fd]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-06-16T11:12:35Z" finished-at="2022-06-16T11:12:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- anottations.ExecutionOrderOfAnnotation -->
+        </test-method> <!-- get -->
+      </class> <!-- anottations.TestA -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

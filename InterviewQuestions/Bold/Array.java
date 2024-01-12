@@ -22,7 +22,7 @@ public class Array {
 	}
 	public static void main(String[] args) {
 		
-		int arr[]= {3,2,4,5,9,8,51,12,43,5,3,7};
+		int arr[]= {1,2,3,5,9,8,51,12,43,5,3,7};
 		int k=3;
 		int x=4;
 		Array ob = new Array();
