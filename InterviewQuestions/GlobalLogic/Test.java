@@ -5,8 +5,8 @@ public class Test {
 	// check two numeric value
 	
 	
-	public static boolean testNumeric(int a, int b) {
-		if(a==b) {
+	public static boolean testNumeric(int a, double d) {
+		if(a==d) {
 			System.out.println(" two int type value are same");
 			return true;
 		}

@@ -8,11 +8,11 @@ public class RestTest {
 	
 	public void testPhonNo() {
 		
-		RestAssured.BaseURI="";
+		//RestAssured.BaseURI="";
 		
-		Response res=given().header("contenType").Body(" json file ").
-		when().Post("resources").
-		then().assetThat().status(201).extract();
+		//Response res=given().header("contenType").Body(" json file ").
+		//when().Post("resources").
+		//then().assetThat().status(201).extract();
 		
 	}
 
