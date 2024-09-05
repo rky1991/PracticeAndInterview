@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Codality.Anotations">
+      <class name="anottations.Anotations">
         <methods>
-          <include name="beforeTestChrome"/>
-          <include name="testScenario2"/>
           <include name="CloseChrome"/>
+          <include name="testChrome"/>
+          <include name="beforeTestChrome"/>
         </methods>
-      </class> <!-- Codality.Anotations -->
+      </class> <!-- anottations.Anotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -27,26 +27,26 @@ after Suite Section
 public class ExecutionOrderOfAnnotation {
 	@BeforeSuite
 	public void beforSuite() {
-		System.out.println("Befor Suite Section");
+		System.out.println("Before Suite Section");
 	}
 	
 	@BeforeClass
 	public void beforeClass() {
 		
-		System.out.println("Befor Class Section");
+		System.out.println("Before Class Section");
 	}
 	
 	@BeforeTest
 	public void beforeTest() {
 		
-		System.out.println("Befor Test Section");
+		System.out.println("Before Test Section");
 		
 	}
    
 	@BeforeMethod
    public void beforeMethod() {
 		
-		System.out.println("Befor Method Section");
+		System.out.println("Before Method Section");
 		
 	}
 	
