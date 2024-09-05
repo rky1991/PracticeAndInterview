@@ -10,9 +10,9 @@ public class RemoveDuplicate1 {
 		  
 		for (int i = 0; i < st.length(); i++) {
 			
-            String ff = String.valueOf(st.charAt(i));
+            String ch = String.valueOf(st.charAt(i));
             
-            if (!st1.contains(ff)) {
+            if (!st1.contains(ch)) {
                 st1 = st1 + st.charAt(i);
             }
         
