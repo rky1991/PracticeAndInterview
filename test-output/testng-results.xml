@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-05T16:40:43 IST" name="Default suite" finished-at="2024-09-05T16:40:43 IST" duration-ms="99">
+  <suite started-at="2024-09-05T20:37:12 IST" name="Suite Parallel Cross browser testing Class Lavel" finished-at="2024-09-05T20:37:23 IST" duration-ms="11393">
     <groups>
-      <group name="Sanity">
-        <method signature="Grouping.testMethod1()[pri:0, instance:anottations.Grouping@3ba9ad43]" name="testMethod1" class="anottations.Grouping"/>
-        <method signature="Grouping.testMethod3()[pri:0, instance:anottations.Grouping@3ba9ad43]" name="testMethod3" class="anottations.Grouping"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="Grouping.testMethod1()[pri:0, instance:anottations.Grouping@3ba9ad43]" name="testMethod1" class="anottations.Grouping"/>
-        <method signature="Grouping.testMethod3()[pri:0, instance:anottations.Grouping@3ba9ad43]" name="testMethod3" class="anottations.Grouping"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="Grouping.testMethod1()[pri:0, instance:anottations.Grouping@3ba9ad43]" name="testMethod1" class="anottations.Grouping"/>
-        <method signature="Grouping.testMethod2()[pri:0, instance:anottations.Grouping@3ba9ad43]" name="testMethod2" class="anottations.Grouping"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-09-05T16:40:43 IST" name="Default test" finished-at="2024-09-05T16:40:43 IST" duration-ms="99">
-      <class name="anottations.Grouping">
-        <test-method signature="testMethod1()[pri:0, instance:anottations.Grouping@3ba9ad43]" started-at="2024-09-05T16:40:43 IST" name="testMethod1" finished-at="2024-09-05T16:40:43 IST" duration-ms="22" status="PASS">
+    <test started-at="2024-09-05T20:37:12 IST" name="Parallel Test" finished-at="2024-09-05T20:37:23 IST" duration-ms="11393">
+      <class name="CrossBrowser.LaunchFireFoxBrowser">
+        <test-method is-config="true" signature="beforeTestChrome()[pri:0, instance:CrossBrowser.LaunchFireFoxBrowser@72f926e6]" started-at="2024-09-05T20:37:12 IST" name="beforeTestChrome" finished-at="2024-09-05T20:37:21 IST" duration-ms="9136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod1 -->
-        <test-method signature="testMethod2()[pri:0, instance:anottations.Grouping@3ba9ad43]" started-at="2024-09-05T16:40:43 IST" name="testMethod2" finished-at="2024-09-05T16:40:43 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- beforeTestChrome -->
+        <test-method signature="testChrome()[pri:0, instance:CrossBrowser.LaunchFireFoxBrowser@72f926e6]" started-at="2024-09-05T20:37:21 IST" name="testChrome" finished-at="2024-09-05T20:37:21 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method signature="testMethod3()[pri:0, instance:anottations.Grouping@3ba9ad43]" started-at="2024-09-05T16:40:43 IST" name="testMethod3" finished-at="2024-09-05T16:40:43 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testChrome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowser.LaunchFireFoxBrowser@72f926e6]" started-at="2024-09-05T20:37:21 IST" name="tearDown" finished-at="2024-09-05T20:37:23 IST" duration-ms="1545" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod3 -->
-      </class> <!-- anottations.Grouping -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowser.LaunchFireFoxBrowser -->
+      <class name="CrossBrowser.LaunchChromeBrowser">
+        <test-method is-config="true" signature="beforeTestChrome()[pri:0, instance:CrossBrowser.LaunchChromeBrowser@4facf68f]" started-at="2024-09-05T20:37:12 IST" name="beforeTestChrome" finished-at="2024-09-05T20:37:15 IST" duration-ms="3581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestChrome -->
+        <test-method signature="testChrome()[pri:0, instance:CrossBrowser.LaunchChromeBrowser@4facf68f]" started-at="2024-09-05T20:37:15 IST" name="testChrome" finished-at="2024-09-05T20:37:15 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChrome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowser.LaunchChromeBrowser@4facf68f]" started-at="2024-09-05T20:37:21 IST" name="tearDown" finished-at="2024-09-05T20:37:21 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowser.LaunchChromeBrowser -->
+    </test> <!-- Parallel Test -->
+  </suite> <!-- Suite Parallel Cross browser testing Class Lavel -->
 </testng-results>
