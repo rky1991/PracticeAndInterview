@@ -1,5 +1,7 @@
 package MustAwarePrograms;
 
+import java.util.Arrays;
+
 public class CopyOneArrayIntoAnother {
 	
 	public static void main(String[] args) {
@@ -14,6 +16,9 @@ public class CopyOneArrayIntoAnother {
 		for(int i =0;i<arr2.length;i++) {
 			System.out.println("Values in Arr2[] copied from arr[] "+arr2[i]);
 		}
+		//or
+		System.out.println("Final Array -->"+Arrays.toString(arr2));
+		
 		
 		
 	}
