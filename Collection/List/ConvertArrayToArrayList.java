@@ -9,7 +9,7 @@ public class ConvertArrayToArrayList {
 		
 		int a[]= {1,2,3,4};
 		List<int[]> list = Arrays.asList(a);
-		System.out.println(list);
+		System.out.println(list.toString());
 		
 	}
 	

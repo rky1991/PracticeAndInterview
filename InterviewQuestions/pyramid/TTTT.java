@@ -1,64 +1,64 @@
 package pyramid;
 
-public class TTTT {
-
-}
-
-
-import java.awt.print.Book;
-//1.	Write a Java program to calculate the total price of each book where book name 
-//is unique. The basic code is given below.
-import java.io.*;
-import java.util.*;
-
-class javaQ {
-	public static void main (String[] args) {
-  
-  //ystem.out.println("Hello Java");
-  Book  prod1 = new Book ();
-  Book  prod2 = new Book ("Learn PHP",213.50, 3);
-  Book  prod3 = new Book ("ReactJS for Dummies",320, 8);
-  Book  prod4 = new Book ("Java Programming",520, 5);
-  Book  prod5 = new Book ("ReactJS for Dummies",320, 7);
-  Book  prod6 = new Book ("ANSI C",222, 5);
-  List<Book > myList = new ArrayList<Book >();
-  myList.add(prod1);
-  myList.add(prod2);
-  myList.add(prod3);
-  myList.add(prod4);
-  myList.add(prod5);
-  myList.add(prod6);
-  
-  
-  System.out.println(myList);
- 
-}
-}
-
-public class Book1 {
-private String name;
-private int quantity;
-private double unit_price;
-
-public Book (String name, double price, int quantity) {
-  this.name=name;
-  this.unit_price=price;
-  this.quantity=quantity;
-}
-
-public String getName() {
-		return name;
-  
-	}
-
-public double getPrice() {
-		return unit_price;
-	}
-
-public int getInt() {
-		return quantity;
-	}
-}
+//public class TTTT {
+//
+//}
+//
+//
+//import java.awt.print.Book;
+////1.	Write a Java program to calculate the total price of each book where book name 
+////is unique. The basic code is given below.
+//import java.io.*;
+//import java.util.*;
+//
+//class javaQ {
+//	public static void main (String[] args) {
+//  
+//  //ystem.out.println("Hello Java");
+//  Book  prod1 = new Book ();
+//  Book  prod2 = new Book ("Learn PHP",213.50, 3);
+//  Book  prod3 = new Book ("ReactJS for Dummies",320, 8);
+//  Book  prod4 = new Book ("Java Programming",520, 5);
+//  Book  prod5 = new Book ("ReactJS for Dummies",320, 7);
+//  Book  prod6 = new Book ("ANSI C",222, 5);
+//  List<Book > myList = new ArrayList<Book >();
+//  myList.add(prod1);
+//  myList.add(prod2);
+//  myList.add(prod3);
+//  myList.add(prod4);
+//  myList.add(prod5);
+//  myList.add(prod6);
+//  
+//  
+//  System.out.println(myList);
+// 
+//}
+//}
+//
+//public class Book1 {
+//private String name;
+//private int quantity;
+//private double unit_price;
+//
+//public Book (String name, double price, int quantity) {
+//  this.name=name;
+//  this.unit_price=price;
+//  this.quantity=quantity;
+//}
+//
+//public String getName() {
+//		return name;
+//  
+//	}
+//
+//public double getPrice() {
+//		return unit_price;
+//	}
+//
+//public int getInt() {
+//		return quantity;
+//	}
+//}
 
 /* 
 Expected Output
