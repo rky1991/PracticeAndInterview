@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Parallel Cross browser testing Class Lavel">
+  <test thread-count="2" name="Parallel Test" parallel = "classes">
+    <classes>
+      <class name="CrossBrowser.LaunchChromeBrowser"/>
+      <class name="CrossBrowser.LaunchFireFoxBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
