@@ -1,3 +1,12 @@
 Add Reporting tool for Selenium.
-Add More Selenium Real time scenarios
+Add More Selenium Real time scenarios 
+Assertion, javascriptExecuter
 Add TestNG Real time Scenarios
+TestNG-Order,DataProvider,Grooping,multibrowsertesting,Listners
+Reports and logs implementation
+ReExecuteFailed TC
+jenkins implementation
+RestAssured
+
+
+Python- Pytest
