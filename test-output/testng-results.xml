@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T20:34:06 IST" name="Default suite" finished-at="2024-09-02T20:34:09 IST" duration-ms="2949">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T20:34:06 IST" name="Default test" finished-at="2024-09-02T20:34:09 IST" duration-ms="2949">
+      <class name="Codality.VerifyLoginMessages">
+        <test-method is-config="true" signature="beforeTestChrome()[pri:0, instance:Codality.VerifyLoginMessages@63021689]" started-at="2024-09-02T20:34:06 IST" name="beforeTestChrome" finished-at="2024-09-02T20:34:08 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestChrome -->
+        <test-method signature="testScenario3()[pri:0, instance:Codality.VerifyLoginMessages@63021689]" started-at="2024-09-02T20:34:08 IST" name="testScenario3" finished-at="2024-09-02T20:34:09 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+      </class> <!-- Codality.VerifyLoginMessages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -36,4 +57,5 @@
       </class> <!-- CrossBrowser.LaunchChromeBrowser -->
     </test> <!-- Parallel Test -->
   </suite> <!-- Suite Parallel Cross browser testing Class Lavel -->
+>>>>>>> 7b7e8fddbcbd9532bdf6d96863cd94e0fee13f73
 </testng-results>

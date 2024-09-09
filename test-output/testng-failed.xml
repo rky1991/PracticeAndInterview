@@ -3,12 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="Codality.VerifyLoginMessages">
+=======
       <class name="CrossBrowser.LaunchFireFoxBrowser">
+>>>>>>> 7b7e8fddbcbd9532bdf6d96863cd94e0fee13f73
         <methods>
           <include name="testChrome"/>
           <include name="beforeTestChrome"/>
+<<<<<<< HEAD
+          <include name="testScenario3"/>
+        </methods>
+      </class> <!-- Codality.VerifyLoginMessages -->
+=======
         </methods>
       </class> <!-- CrossBrowser.LaunchFireFoxBrowser -->
+>>>>>>> 7b7e8fddbcbd9532bdf6d96863cd94e0fee13f73
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
