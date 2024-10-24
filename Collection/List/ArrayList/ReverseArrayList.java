@@ -20,6 +20,7 @@ public class ReverseArrayList {
 		Collections.sort(ls);
 		System.out.println(ls);
 		Collections.synchronizedList(ls);
+		System.out.println(ls);
 		
 	}
 	
