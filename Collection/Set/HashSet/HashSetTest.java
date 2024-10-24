@@ -9,7 +9,7 @@ public class HashSetTest {
 		Set set=  new HashSet();
 		set.add("add");
 		set.add(1);
-		set.add(false);
+		System.out.println(set.add(false));
 		set.add(2.5);
 		
 		System.out.println(set);

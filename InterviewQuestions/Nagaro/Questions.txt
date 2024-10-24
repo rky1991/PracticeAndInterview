@@ -1,0 +1,5 @@
+Reverse string using recursion 
+Get length of any string without use length
+risk management --. mitigation
+Pojo Classes
+Estimation calculation techniques

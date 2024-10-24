@@ -49,7 +49,7 @@ public class LaunchChromeBrowser {
 
 		Assert.assertTrue(true);
 		System.out.println("Chrome browser successfully launched");
-		System.out.println("Thread Id --> "+Thread.currentThread().threadId());
+		System.out.println("Thread Id --> "+Thread.currentThread().getId());
 
 	}
 

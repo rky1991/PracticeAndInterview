@@ -37,7 +37,7 @@ public class ParallelTesting {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
 		System.out.println("Crome Browser is launched ");
-		System.out.println("Thread Id --> "+Thread.currentThread().threadId());
+		System.out.println("Thread Id --> "+Thread.currentThread().getId());
 		driver.get("https://www.google.com");
 		driver.quit();
 	}
@@ -48,7 +48,7 @@ public class ParallelTesting {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
 		System.out.println("FireFox Browser is launched ");		
-		System.out.println("Thread Id --> "+Thread.currentThread().threadId());
+		System.out.println("Thread Id --> "+Thread.currentThread().getId());
 		driver.get("https://www.google.com");
 		driver.quit();
 	}

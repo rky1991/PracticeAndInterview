@@ -21,6 +21,7 @@ public class HashMapTest {
 		
 		System.out.println(map);
 		System.out.println(map.size());
+		System.out.println(map.keySet());
 		
 		
 		

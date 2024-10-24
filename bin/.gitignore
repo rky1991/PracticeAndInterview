@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-/Codality/
-=======
-<<<<<<< HEAD
 /Abstraction/
 /Array/
 /Basics/
 /Bold/
+/Codality/
 /CommonQuestion/
-/Comparator/
 /Conditional/
+/CrossBrowser/
 /Encapsulation/
 /GlobalLogic/
 /Inheritance/
-/Itrator/
+/Interview.class
 /List/
 /Loops/
 /Map/
+/Modifiers/
 /MustAwarePrograms/
 /NAB_Codality/
 /NIIT/
@@ -25,6 +23,7 @@
 /SelBasics/
 /Set/
 /SortingSting/
+/StringRecursion/
 /Typecasting/
 /UniCode/
 /WraperClass/
@@ -37,26 +36,15 @@
 /interfaces/
 /interviewprograms/
 /irish/
-/onlineTest/
 /operator/
 /pyramid/
 /sapient/
+/snippet/
 /stringOperation/
-/xlOperation/
-/Nagero/
-=======
-/Modifiers/
-/Modifiers1/
-/Array/
-/List/
 /switchCases/
-/Codality/
-/onlineTest/
-/demo/
-/GlobalLogic/
-/pyramid/
-/SeleniumInterviewQues/
-/TestNGInterviewQuestions/
->>>>>>> 8629b938b66d0ac098c49b1399c07f420a7ad371
-/CrossBrowser/
->>>>>>> 7b7e8fddbcbd9532bdf6d96863cd94e0fee13f73
+/xlOperation/
+/Nagaro/
+/recursion/
+/EPAM/
+/ConversionOfCollection/
+/SortCollection/
