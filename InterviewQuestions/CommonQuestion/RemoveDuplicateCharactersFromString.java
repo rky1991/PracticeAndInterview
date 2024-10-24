@@ -11,11 +11,13 @@ public class RemoveDuplicateCharactersFromString {
 		String st= "RRaahhull KKuumaarrrr";
 		char[] arr = st.toCharArray();
 		
-		// Maintain Insetion order
+		// Maintain Insetion order,
 		Set set = new LinkedHashSet<>();
 		
 		for(char c:arr) {
-			if(set.add(c)==false);
+			if(set.add(c)==false) {
+				System.out.println("duplicate Char :"+c);
+			}
 		}
 		System.out.println("String After Remove Duplicates :"+ set);
 		
