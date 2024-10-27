@@ -51,7 +51,7 @@ WebDriver driver;
 		
 		Assert.assertTrue(true);
 		System.out.println("FireFox browser successfully launched");
-		System.out.println("Thread Id --> "+Thread.currentThread().threadId());
+		System.out.println("Thread Id --> "+Thread.currentThread().getId());
 	 		
 	}
 	

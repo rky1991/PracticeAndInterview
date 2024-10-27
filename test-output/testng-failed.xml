@@ -6,6 +6,7 @@
       <class name="CrossBrowser.LaunchFireFoxBrowser">
         <methods>
           <include name="testChrome"/>
+          <include name="tearDown"/>
           <include name="beforeTestChrome"/>
         </methods>
       </class> <!-- CrossBrowser.LaunchFireFoxBrowser -->

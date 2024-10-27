@@ -7,6 +7,7 @@ Reports and logs implementation
 ReExecuteFailed TC
 jenkins implementation
 RestAssured
-
-
+Lambda Feature
+Streem API
+run parallely in testing and cucumber,
 Python- Pytest

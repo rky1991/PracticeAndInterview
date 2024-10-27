@@ -11,7 +11,7 @@ public class RemoveDuplicateCharactersFromString {
 		String st= "RRaahhull KKuumaarrrr";
 		char[] arr = st.toCharArray();
 		
-		// Maintain Insetion order.
+		// Maintain Insetion order,
 		Set set = new LinkedHashSet<>();
 		
 		for(char c:arr) {
