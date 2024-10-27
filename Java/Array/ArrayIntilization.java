@@ -13,6 +13,10 @@ public class ArrayIntilization {
 		for(int i=0;i<a.length;i++) {
 			System.out.println(a[i]);
 		}
+		for(int x : a) {
+			System.out.println("Value of Array a -->"+x);
+			
+		}
 	}
 
 }
