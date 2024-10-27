@@ -10,7 +10,6 @@ public class B extends A {
 	
 	public void test() {
 		System.out.println("I am from Class 'B' :");
-		System.out.println("I am from Class 'B' :");
 	}
 	
 	// Static method can not override & method hiding

@@ -1,0 +1,23 @@
+Listeners are implemented in code via interfaces to modify TestNG behaviour.
+ Listed below are the 8 most commonly used TestNG listeners:
+ ------------>>>>>
+1.IAnnotationTransformer
+2.IExecutionListener
+3.IHookable
+4.IInvokedMethodListener
+5.IMethodInterceptor
+6.IReporter
+7.ISuiteListener
+8.ITestListener
+--------------------------->>>>>>>>>>
+
+ITestListener
+IReporter
+ISuiteListener
+IInvokedMethod
+IHookable
+IConfigurationListener
+IConfigurableListener
+IAnnotationTransformer
+IExecution
+IMethodInterceptor

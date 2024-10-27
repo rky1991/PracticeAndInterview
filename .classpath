@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="Java"/>
 	<classpathentry kind="src" path="Selenium"/>
 	<classpathentry kind="src" path="TestNG"/>
+	<classpathentry kind="src" path="recursion"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
