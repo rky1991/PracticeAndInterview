@@ -18,7 +18,7 @@ public class FindInterSection {
 		for(int s: ar) {
 			
 			if(set.add(s)==false) {
-				System.out.println(s);
+				System.out.println("Intersect with array -->"+s);
 			}
 		}
 		
