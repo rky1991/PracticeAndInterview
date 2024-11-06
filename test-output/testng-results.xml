@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T11:52:20 IST" name="Default suite" finished-at="2024-11-06T11:52:22 IST" duration-ms="2255">
+  <suite started-at="2024-11-06T18:56:10 IST" name="Default suite" finished-at="2024-11-06T18:56:13 IST" duration-ms="2130">
     <groups>
     </groups>
-    <test started-at="2024-11-06T11:52:20 IST" name="Default test" finished-at="2024-11-06T11:52:22 IST" duration-ms="2255">
-      <class name="resreqAPI.GetListOfUser">
-        <test-method signature="getListOfUser()[pri:0, instance:resreqAPI.GetListOfUser@e056f20]" started-at="2024-11-06T11:52:20 IST" name="getListOfUser" finished-at="2024-11-06T11:52:22 IST" duration-ms="2221" status="PASS">
+    <test started-at="2024-11-06T18:56:10 IST" name="Default test" finished-at="2024-11-06T18:56:13 IST" duration-ms="2130">
+      <class name="test.Test1">
+        <test-method signature="test22()[pri:0, instance:test.Test1@e056f20]" started-at="2024-11-06T18:56:10 IST" name="test22" finished-at="2024-11-06T18:56:13 IST" duration-ms="2099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getListOfUser -->
-      </class> <!-- resreqAPI.GetListOfUser -->
+        </test-method> <!-- test22 -->
+      </class> <!-- test.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
