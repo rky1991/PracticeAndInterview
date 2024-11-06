@@ -5,9 +5,9 @@ public class ReverseNumber {
 	public static void reverseNo(int num) {
 		int revN=0,rem=0;
 		while(num!=0) {
-		rem=num%10;
-		revN=revN*10+rem;
-		num=num/10;
+		rem=num%10; // Find the remnder
+		revN=revN*10+rem; // Multiply the variable reverse by 10 and add remainder into it 
+		num=num/10; //divide the number by 10.
 		}
 		System.out.println(revN);
 	}
