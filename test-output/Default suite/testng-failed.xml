@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CrossBrowser.LaunchFireFoxBrowser">
+      <class name="resreqAPI.GetListOfUser">
         <methods>
-          <include name="testChrome"/>
-          <include name="tearDown"/>
-          <include name="beforeTestChrome"/>
+          <include name="getListOfUser"/>
         </methods>
-      </class> <!-- CrossBrowser.LaunchFireFoxBrowser -->
+      </class> <!-- resreqAPI.GetListOfUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

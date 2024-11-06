@@ -6,26 +6,40 @@
 	<classpathentry kind="src" path="Selenium"/>
 	<classpathentry kind="src" path="TestNG"/>
 	<classpathentry kind="src" path="recursion"/>
+	<classpathentry kind="src" path="restAssured"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="jar/poi/poi-5.2.5.jar"/>
+	<classpathentry kind="lib" path="jar/poi/poi-ooxml-5.2.5.jar"/>
+	<classpathentry kind="lib" path="jar/poi/poi-ooxml-lite-5.2.5.jar"/>
 	<classpathentry kind="lib" path="jar/poi/commons-codec-1.16.0.jar"/>
 	<classpathentry kind="lib" path="jar/poi/commons-collections4-4.4.jar"/>
 	<classpathentry kind="lib" path="jar/poi/commons-compress-1.25.0.jar"/>
 	<classpathentry kind="lib" path="jar/poi/commons-io-2.15.0.jar"/>
 	<classpathentry kind="lib" path="jar/poi/commons-math3-3.6.1.jar"/>
 	<classpathentry kind="lib" path="jar/poi/curvesapi-1.08.jar"/>
-	<classpathentry kind="lib" path="jar/poi/poi-5.2.5.jar"/>
-	<classpathentry kind="lib" path="jar/poi/poi-ooxml-5.2.5.jar"/>
-	<classpathentry kind="lib" path="jar/poi/poi-ooxml-lite-5.2.5.jar"/>
+	<classpathentry kind="lib" path="jar/poi/log4j-api-2.21.1.jar"/>
 	<classpathentry kind="lib" path="jar/poi/SparseBitSet-1.3.jar"/>
 	<classpathentry kind="lib" path="jar/poi/xmlbeans-5.2.0.jar"/>
-	<classpathentry kind="lib" path="jar/log4j/log4j-api-3.0.0-beta1.jar"/>
-	<classpathentry kind="lib" path="jar/log4j/log4j-core-3.0.0-beta1.jar"/>
-	<classpathentry kind="lib" path="jar/log4j/log4j-plugins-3.0.0-beta1.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/groovy-4.0.22.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/groovy-json-4.0.22.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/groovy-xml-4.0.22.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/hamcrest-2.2.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/httpmime-4.5.13.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/json-path-5.5.0.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/rest-assured-5.5.0.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/rest-assured-common-5.5.0.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/xml-path-5.5.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
