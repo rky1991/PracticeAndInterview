@@ -4,12 +4,14 @@
 /Bold/
 /Codality/
 /CommonQuestion/
+/Comparator/
 /Conditional/
+/ConversionOfCollection/
+/CrossBrowser/
 /Encapsulation/
 /GlobalLogic/
 /Inheritance/
-/Interview.class
-/LambdaExpression/
+/Itrator/
 /List/
 /Loops/
 /Map/
@@ -18,6 +20,7 @@
 /NAB_Codality/
 /NIIT/
 /Nagaro/
+/Nagero/
 /Polymorphism/
 /Pract/
 /QAInfotec/
@@ -25,11 +28,14 @@
 /Set/
 /SortCollection/
 /SortingSting/
+/StringProgram/
+/StringRecursion/
 /TabSwitch/
 /Typecasting/
 /UniCode/
 /WraperClass/
 /adeptia/
+/anottations/
 /casting/
 /classes/
 /constructor/
@@ -37,6 +43,7 @@
 /interfaces/
 /interviewprograms/
 /irish/
+/listners/
 /operator/
 /pyramid/
 /recursion/
