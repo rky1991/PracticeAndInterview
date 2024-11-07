@@ -40,6 +40,9 @@
 	<classpathentry kind="lib" path="jar/restJar/rest-assured-common-5.5.0.jar"/>
 	<classpathentry kind="lib" path="jar/restJar/tagsoup-1.2.1.jar"/>
 	<classpathentry kind="lib" path="jar/restJar/xml-path-5.5.0.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/jackson-annotations-2.18.0-rc1.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/jackson-core-2.18.0-rc1.jar"/>
+	<classpathentry kind="lib" path="jar/restJar/jackson-databind-2.18.0-rc1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
