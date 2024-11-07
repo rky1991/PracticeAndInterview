@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T18:56:10 IST" name="Default suite" finished-at="2024-11-06T18:56:13 IST" duration-ms="2130">
+  <suite started-at="2024-11-07T10:53:29 IST" name="Default suite" finished-at="2024-11-07T10:53:32 IST" duration-ms="2685">
     <groups>
     </groups>
-    <test started-at="2024-11-06T18:56:10 IST" name="Default test" finished-at="2024-11-06T18:56:13 IST" duration-ms="2130">
-      <class name="test.Test1">
-        <test-method signature="test22()[pri:0, instance:test.Test1@e056f20]" started-at="2024-11-06T18:56:10 IST" name="test22" finished-at="2024-11-06T18:56:13 IST" duration-ms="2099" status="PASS">
+    <test started-at="2024-11-07T10:53:29 IST" name="Default test" finished-at="2024-11-07T10:53:32 IST" duration-ms="2685">
+      <class name="pojo.UserTest">
+        <test-method signature="createNewUserJSONFromUserPOJOClass()[pri:0, instance:pojo.UserTest@6580cfdd]" started-at="2024-11-07T10:53:29 IST" name="createNewUserJSONFromUserPOJOClass" finished-at="2024-11-07T10:53:32 IST" duration-ms="2616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test22 -->
-      </class> <!-- test.Test1 -->
+        </test-method> <!-- createNewUserJSONFromUserPOJOClass -->
+        <test-method signature="getPojoFromUserObject()[pri:0, instance:pojo.UserTest@6580cfdd]" started-at="2024-11-07T10:53:32 IST" name="getPojoFromUserObject" finished-at="2024-11-07T10:53:32 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPojoFromUserObject -->
+      </class> <!-- pojo.UserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
