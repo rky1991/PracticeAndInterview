@@ -9,8 +9,10 @@ public class ReverseArray {
 	
 	public static void main(String[] args) {
 		int a[]= new int[3];
-		int rev[]=new int[a.length];
-		int b[]= {a.length};
+		
+		//int rev[]=new int[a.length];
+		//int b[]= {a.length};
+		
 		Scanner scan = new Scanner(System.in);
 		for(int i=0;i<a.length;i++) {
 			System.out.println("Enter value in the array at index :"+i);
@@ -20,7 +22,8 @@ public class ReverseArray {
 		System.out.println("** Array is full you have done :**");
 		System.out.println(Arrays.toString(a));
 		System.out.println("** Reverse an Array is start**");
-		for(int j=rev.length-1;j>=0;j--) {
+		
+		for(int j=a.length-1;j>=0;j--) {
 			System.out.println(a[j]);
 		}
 		
