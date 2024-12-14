@@ -1,6 +1,7 @@
 package CommonQuestion;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class FindRepeatedCharactersCount {
@@ -10,7 +11,7 @@ public class FindRepeatedCharactersCount {
 		
 		String st= "RRahhuull_ kkuummar _YYyyaadav __";
 		System.out.println(st);
-		Map<Character,Integer> map = new HashMap<Character, Integer>();
+		Map<Character,Integer> map = new LinkedHashMap<Character, Integer>();
 		
 		for (int i=0;i<st.length();i++) {
 			char c = st.charAt(i);

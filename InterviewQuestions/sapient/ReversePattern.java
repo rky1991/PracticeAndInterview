@@ -1,6 +1,7 @@
 package sapient;
 
 public class ReversePattern {
+	
     public static void main(String[] args) {
         String str = "RahulKumar ChandanKumar";
 

@@ -7,7 +7,7 @@ public class TreeSetTest{
 	// also calleed a sorted set 
 	public static void main(String[] args) {
 		
-		Set st=  new TreeSet();;
+		Set st=  new TreeSet();
 		st.add(3);
 		st.add(2);
 		st.add(40);

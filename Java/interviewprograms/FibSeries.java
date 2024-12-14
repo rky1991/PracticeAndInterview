@@ -1,7 +1,7 @@
 package interviewprograms;
 
 
- // 0 1 2 3 5 8 13 21.. 
+ // 0 1 2 3 5 8 13 21.
 public class FibSeries {
 	
 	// display fib series up to term 

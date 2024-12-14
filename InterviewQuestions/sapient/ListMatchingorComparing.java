@@ -8,7 +8,7 @@ public class ListMatchingorComparing {
 		List<String> list1 = List.of("abc", "a", "cbvv", "b");
 		List<String> list2 = List.of("a", "b");
 
-		// Output matching elements in format {index, value}
+		//Output matching elements in format {index, value}
 		for (String item : list2) {
 			int index = list1.indexOf(item); // Find index of item in list1
 			if (index != -1) {

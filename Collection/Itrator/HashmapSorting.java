@@ -1,4 +1,4 @@
-package SortCollection;
+package Itrator;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -28,8 +28,9 @@ public class HashmapSorting {
 			System.out.println("RoleNO -> "+key+ " Name -->>"+map.get(key));
 			
 		}
-		Map<Integer, String> map1=new TreeMap<Integer, String>(map);  
-		System.out.println(map);
+		System.out.println("**********************************");
+		Map<Integer, String> map1=new TreeMap<Integer, String>(map);
+		System.out.println(map1);
 		
 
 		

@@ -37,10 +37,11 @@ public class ListCompare {
 		System.out.println(mp);
 
 		for(int i=0; i<ls1.size();i++) {
-			String word = ls1.get(i).toString(); 
-			Integer index = mp.get(word); 
-			if(index!=null) {
-				System.out.println("{"+ index +","+ word + "}");
+			String word = ls1.get(i).toString();
+			System.out.println("word -->>"+word);
+			Integer mapValue_key = mp.get(word); 
+			if(mapValue_key!=null) {
+				System.out.println("{"+ mapValue_key +","+ word + "}");
 			}
 
 		}
