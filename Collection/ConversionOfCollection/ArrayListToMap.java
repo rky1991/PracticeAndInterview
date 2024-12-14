@@ -21,11 +21,7 @@ public class ArrayListToMap {
 		
 		Map<Integer ,String> map = new HashMap<Integer ,String>();
 		for(String st : list) {
-			
-			System.out.println(map.put(st.indexOf(st), st));
-			System.out.println(map);
-			
-			
+			map.put(list.indexOf(st), st);
 		}
 		System.out.println(map);
 		

@@ -24,10 +24,12 @@ public class ArrayListToHashMap {
 		Map<Integer ,String> map = new HashMap<Integer ,String>();
 		
 		for(int i=0; i<list.size();i++) {
-			System.out.println(map.put(i,list.get(i)));
+			map.put(i,list.get(i));
 			System.out.println(map);
 			
+			
 		}
+		System.out.println("Final Map ->"+map);
 	}
 
 }

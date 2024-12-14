@@ -1,0 +1,6 @@
+1.Add Empoyee with Age Name Salary and salary and sort those employee based on Salary.
+2.Rest Assured get data and validate one attribute from response.
+3.adoch testing
+4.comparator
+5.Class Lavel with public and default
+6.Dynamic Xpath creation

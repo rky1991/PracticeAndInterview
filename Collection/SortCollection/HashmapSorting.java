@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class HashmapSorting {
 	
@@ -27,7 +28,8 @@ public class HashmapSorting {
 			System.out.println("RoleNO -> "+key+ " Name -->>"+map.get(key));
 			
 		}
-		Map<Integer, String> map1=new HashMap<Integer, String>();  
+		Map<Integer, String> map1=new TreeMap<Integer, String>(map);  
+		System.out.println(map);
 		
 
 		
