@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T19:48:18 IST" name="Default suite" finished-at="2024-11-07T19:48:20 IST" duration-ms="2483">
+  <suite started-at="2024-12-30T10:21:32 IST" name="Default suite" finished-at="2024-12-30T10:21:35 IST" duration-ms="2780">
     <groups>
     </groups>
-    <test started-at="2024-11-07T19:48:18 IST" name="Default test" finished-at="2024-11-07T19:48:20 IST" duration-ms="2483">
-      <class name="pojo.UserTest">
-        <test-method signature="createNewUserJSONFromUserPOJOClass()[pri:0, instance:pojo.UserTest@9225652]" started-at="2024-11-07T19:48:18 IST" name="createNewUserJSONFromUserPOJOClass" finished-at="2024-11-07T19:48:20 IST" duration-ms="2425" status="PASS">
+    <test started-at="2024-12-30T10:21:32 IST" name="Default test" finished-at="2024-12-30T10:21:35 IST" duration-ms="2780">
+      <class name="resreqAPI.GetListOfUser">
+        <test-method signature="getListOfUser()[pri:0, instance:resreqAPI.GetListOfUser@67a20f67]" started-at="2024-12-30T10:21:32 IST" name="getListOfUser" finished-at="2024-12-30T10:21:35 IST" duration-ms="2734" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewUserJSONFromUserPOJOClass -->
-        <test-method signature="getPojoFromUserObject()[pri:0, instance:pojo.UserTest@9225652]" started-at="2024-11-07T19:48:20 IST" name="getPojoFromUserObject" finished-at="2024-11-07T19:48:20 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPojoFromUserObject -->
-      </class> <!-- pojo.UserTest -->
+        </test-method> <!-- getListOfUser -->
+      </class> <!-- resreqAPI.GetListOfUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

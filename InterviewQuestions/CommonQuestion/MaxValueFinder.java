@@ -11,11 +11,6 @@ public class MaxValueFinder {
      * @throws IllegalArgumentException if the array is null or empty
      */
     public static int findMaxValue(int[] arr) {
-        //If block for null array
-    	if (arr == null || arr.length == 0) {
-            throw new IllegalArgumentException("Array must not be null or empty.");
-        }
-
         int max = arr[0]; // Initialize max with the first element
         for (int num : arr) {
         	System.out.println(max+ "<->" +num);

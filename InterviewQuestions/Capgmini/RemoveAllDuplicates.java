@@ -13,6 +13,7 @@ public class RemoveAllDuplicates {
 	        for (char c : input.toCharArray()) {
 	        	map.put(c, map.getOrDefault(c, 0) + 1);
 	        }
+	        System.out.println("Print Map -->>"+map);
 
 	        // Build the result string excluding characters that appear more than once
 	        StringBuilder result = new StringBuilder();

@@ -31,7 +31,9 @@ public class MoveZeroToLeft {
 			
 		}
 		
-			System.out.println("Zero left shift -->"+Arrays.toString(a));
+		
+		System.out.println("Zero left shift -->"+Arrays.toString(a));
+			
 		
 	}
 
