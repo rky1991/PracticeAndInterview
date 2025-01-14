@@ -1,4 +1,5 @@
 /Abstraction/
+/ActionClass/
 /Array/
 /Basics/
 /Bold/
@@ -7,6 +8,7 @@
 /CommonQuestion/
 /Comparator/
 /Conditional/
+/Conditional_turnary/
 /ConversionOfCollection/
 /CrossBrowser/
 /CustomeList/
@@ -14,6 +16,7 @@
 /Encapsulation/
 /Exceptions/
 /GlobalLogic/
+/HCL/
 /Inheritance/
 /Itrator/
 /List/
@@ -25,17 +28,25 @@
 /NAB_Codality/
 /NIIT/
 /Nagaro/
+/PatternLoops/
 /Polymorphism/
 /Pract/
 /QAInfotec/
+/RecursionBasic/
+/RegularExpressionAndOperation/
 /SelBasics/
 /SeleniumInterviewQues/
 /Set/
 /SortCollection/
 /SortingSting/
 /Stream/
+/StringBasicProgram/
+/StringBuilder/
+/StringMediumLavelProgram/
 /StringProgram/
 /StringRecursion/
+/Synchronization/
+/SynchronizedCollection/
 /TabSwitch/
 /TestNGInterviewQuestions/
 /Typecasting/
@@ -50,6 +61,8 @@
 /interfaces/
 /interviewprograms/
 /irish/
+/lambdaExpression/
+/lambdaExpressionBasic/
 /listners/
 /operator/
 /pojo/

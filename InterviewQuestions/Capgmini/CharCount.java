@@ -15,7 +15,7 @@ public class CharCount {
 
         // Print character counts
         for (int i = 0; i < charCount.length; i++) {
-            if (charCount[i] > 0) {
+            if (charCount[i] >0) {
                 System.out.println((char) i + ": " + charCount[i]);
             }
         }

@@ -12,15 +12,7 @@ public class RemoveDuplicates {
             charCount[c]++;
             System.out.println(c);
         }
-        //String st ="";
-        
-     // Print character counts
-        for (int i = 0; i < charCount.length; i++) {
-            if (charCount[i] > 0) {
-                System.out.println( (char) i + ": " + charCount[i]);
-            }
-        }
-
+       
         // Build the result string excluding characters that appear more than once
         StringBuilder result = new StringBuilder();
         for (char c : input.toCharArray()) {
