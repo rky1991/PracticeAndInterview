@@ -1,17 +1,26 @@
 package Exceptions;
 
+
 public class Exception2 {
 	
-	public static void main(String[] args) {
+	public void test()  throws ArithmeticException{
+		System.out.println("Test thwows ");
+		int i =10/0;
 		
+		
+	}
+	
+	public static void main(String[] args)  {
+		
+		Exception2 ob= new Exception2();
 		try {
-		int i =10/0; //ArithmeticException
-		}
-		catch (Exception e) {
+			ob.test();
+		} catch (ArithmeticException e) {
 			// TODO: handle exception
-			System.out.println("Eception Catched -->"+e);
 		}
-		System.out.println("Hello"); // will not execute
+		
+		
+		System.out.println("Hello Dhruv");
 		
 	}
 

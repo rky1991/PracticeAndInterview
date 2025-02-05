@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T19:48:18 IST" name="Default suite" finished-at="2024-11-07T19:48:20 IST" duration-ms="2483">
+  <suite started-at="2025-01-27T21:17:30 IST" name="Default suite" finished-at="2025-01-27T21:17:33 IST" duration-ms="2914">
     <groups>
     </groups>
-    <test started-at="2024-11-07T19:48:18 IST" name="Default test" finished-at="2024-11-07T19:48:20 IST" duration-ms="2483">
-      <class name="pojo.UserTest">
-        <test-method signature="createNewUserJSONFromUserPOJOClass()[pri:0, instance:pojo.UserTest@9225652]" started-at="2024-11-07T19:48:18 IST" name="createNewUserJSONFromUserPOJOClass" finished-at="2024-11-07T19:48:20 IST" duration-ms="2425" status="PASS">
+    <test started-at="2025-01-27T21:17:30 IST" name="Default test" finished-at="2025-01-27T21:17:33 IST" duration-ms="2914">
+      <class name="resreqAPI.GetSingleUser">
+        <test-method signature="testSingleUser()[pri:0, instance:resreqAPI.GetSingleUser@353d0772]" started-at="2025-01-27T21:17:30 IST" name="testSingleUser" finished-at="2025-01-27T21:17:33 IST" duration-ms="2871" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewUserJSONFromUserPOJOClass -->
-        <test-method signature="getPojoFromUserObject()[pri:0, instance:pojo.UserTest@9225652]" started-at="2024-11-07T19:48:20 IST" name="getPojoFromUserObject" finished-at="2024-11-07T19:48:20 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPojoFromUserObject -->
-      </class> <!-- pojo.UserTest -->
+        </test-method> <!-- testSingleUser -->
+      </class> <!-- resreqAPI.GetSingleUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
