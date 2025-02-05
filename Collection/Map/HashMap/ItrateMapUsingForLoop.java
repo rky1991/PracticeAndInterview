@@ -13,24 +13,24 @@ public class ItrateMapUsingForLoop {
 		map.put("Dhruv", 222);
 		map.put("Shivani",111);
 		map.put("Neha", 333);
-		
+	
+		System.out.println("*******************************************");
 		
 		for(Map.Entry<String, Integer> entry : map.entrySet()) {
 			System.out.println(entry.getKey() +" : "+entry.getValue());
 		}
 		System.out.println("*******************************************");
 		
-		 // forEach(action) method to iterate map
+		 // forEach(action) method to iterate map stream api
 		map.forEach((k,v) -> System.out.println("Key = " + k + ", Value = " + v));
 		
 		System.out.println("*******************************************");
 		
 		// looping over keys
-        for (String name : map.keySet()) 
+        for (String key : map.keySet()) 
         {
             // search  for value
-            Integer id = map.get(name);
-            System.out.println("Key = " + name + ", Value = " + id);
+            System.out.println("Key = " + key + ", Value = " + map.get(key));
         }
 				
 		

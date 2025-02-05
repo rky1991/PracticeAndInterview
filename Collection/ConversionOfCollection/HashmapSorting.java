@@ -21,6 +21,7 @@ public class HashmapSorting {
 		System.out.println(map);
 		Iterator<Integer> it = map.keySet().iterator();
 		System.out.println("Before Sorting"+map);
+		System.out.println("All keys set"+map.keySet());
 		
 		while(it.hasNext()) {
 			int key =(int)it.next();

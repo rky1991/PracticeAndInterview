@@ -3,7 +3,7 @@ package sapient;
 public class Abstraction1Driver extends Abstraction1 {
 	
 	Abstraction1Driver(){
-		super();
+		//super();
 		System.out.println("4");
 	}
 	

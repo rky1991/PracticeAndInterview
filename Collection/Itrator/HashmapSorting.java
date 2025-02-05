@@ -30,7 +30,7 @@ public class HashmapSorting {
 		}
 		System.out.println("**********************************");
 		Map<Integer, String> map1=new TreeMap<Integer, String>(map);
-		System.out.println(map1);
+		System.out.println("Tree Map -->"+map1);
 		
 
 		
