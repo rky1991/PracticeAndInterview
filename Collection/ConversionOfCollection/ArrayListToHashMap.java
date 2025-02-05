@@ -15,7 +15,7 @@ public class ArrayListToHashMap {
 		list.add("Dhruv");
 		list.add("Ravi");
 		System.out.println(list.get(0));
-		System.out.println(list.contains("Ruhul"));
+		System.out.println(list.contains("Rahul"));
 		
 		/**One Methdod to Convert Array List to Map ,
 		ArrayList Index Number(Integer)  is -> Key Of Map
@@ -25,10 +25,9 @@ public class ArrayListToHashMap {
 		
 		for(int i=0; i<list.size();i++) {
 			map.put(i,list.get(i));
-			System.out.println(map);
-			
-			
+			System.out.println(map);	
 		}
+		
 		System.out.println("Final Map ->"+map);
 	}
 

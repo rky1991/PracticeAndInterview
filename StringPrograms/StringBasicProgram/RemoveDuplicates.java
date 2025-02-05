@@ -5,7 +5,9 @@ public class RemoveDuplicates {
         String str = "programming";
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
-            if (result.indexOf(String.valueOf(str.charAt(i))) == -1) {
+        	String ch = String.valueOf(str.charAt(i));
+        	//result.indexOf(ch) --> Return -1 if char not matched
+            if (result.indexOf(ch) == -1) {
                 result.append(str.charAt(i));
             }
         }

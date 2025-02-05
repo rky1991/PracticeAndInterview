@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pojo.UserTest">
+      <class name="SeleniumInterviewQues.ShadowDomExample">
         <methods>
-          <include name="testGetUser"/>
+          <include name="testShadowDom"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- pojo.UserTest -->
+      </class> <!-- SeleniumInterviewQues.ShadowDomExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

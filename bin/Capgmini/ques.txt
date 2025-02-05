@@ -1,0 +1,6 @@
+remove duplicate input - hello , o/p --> heo
+reverse String without change special char place  
+input a@b#c --> c@b#a
+
+using Actions class without drag and drop method
+abstract class and interface -- 
